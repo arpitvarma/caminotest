@@ -1,0 +1,15 @@
+.chart {
+  display: flex;
+  flex:0 0 100%;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+
+
+   &__container {
+     width:90vw;
+     max-width: 102.4rem;
+     margin:auto;
+     position: relative;
+   }
+
+}

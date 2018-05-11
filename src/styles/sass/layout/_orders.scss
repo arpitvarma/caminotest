@@ -1,0 +1,11 @@
+.orders {
+  display: flex;
+  flex: 0 0 100%;
+  font-size: 1.2rem;
+  justify-content: space-between;
+  color: $color-light-gold;
+
+  &__value {
+    color: $color-pink;
+  }
+}

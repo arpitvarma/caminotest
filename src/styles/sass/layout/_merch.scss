@@ -1,0 +1,26 @@
+.merch {
+  display: flex;
+  flex:0 0 100%;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+
+  &__title {
+    display: flex;
+    align-items: center;
+
+    &-name {
+      color:$color-light-gold;
+    }
+  }
+
+  &__price{
+    color: $color-pink;
+  }
+
+}
+
+.bullet {
+    margin-right: 1rem;
+}

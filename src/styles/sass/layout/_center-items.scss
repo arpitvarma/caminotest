@@ -1,0 +1,12 @@
+.center__items {
+  display:flex;
+  flex: 0 0 100%;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.full-row {
+  display: flex;
+  flex: 0 0 100%;
+  justify-content: center;
+}

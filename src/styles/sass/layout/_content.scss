@@ -1,0 +1,15 @@
+.content {
+  display: flex;
+  flex:1;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: $side-margins;
+
+
+  &__container {
+    display:flex;
+    flex: 0 0 100%;
+    flex-wrap: wrap;
+    max-width: 102.4rem;
+  }
+}

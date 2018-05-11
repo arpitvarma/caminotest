@@ -1,0 +1,28 @@
+.button {
+  display: flex;
+  flex:1;
+  justify-content: center;
+  margin-bottom: 10rem;
+
+  &__style{
+    font-family: inherit;
+    font-size: inherit;
+    padding: 1rem 1.5rem;
+    border-radius: 2.5rem;
+    background-color: transparent;
+    border:2px solid $color-light-gold;
+    color: $color-light-gold;
+    box-shadow: 1px 8px 10px rgba(0,0,0,.4);
+    transition: .2s all;
+
+    &:focus {
+      outline:none;
+    }
+    &:hover {
+      transform: translateY(-3px);
+    }
+    &:active{
+      transform: translateY(1px);
+    }
+  }
+}

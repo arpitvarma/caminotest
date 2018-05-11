@@ -1,0 +1,193 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  background: #42275a;
+  background: -webkit-linear-gradient(0deg, #734b6d, #42275a);
+  background: linear-gradient(0deg, #734b6d, #42275a);
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+.peach {
+  color: #C3574C; }
+
+.gold {
+  color: #FFC501; }
+
+.aqua-blue {
+  color: #1CD4DE; }
+
+.light-gold {
+  color: #FCF5C7; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem; }
+
+.nav {
+  text-transform: uppercase; }
+
+.button {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  margin-bottom: 10rem; }
+  .button__style {
+    font-family: inherit;
+    font-size: inherit;
+    padding: 1rem 1.5rem;
+    border-radius: 2.5rem;
+    background-color: transparent;
+    border: 2px solid #FCF5C7;
+    color: #FCF5C7;
+    box-shadow: 1px 8px 10px rgba(0, 0, 0, 0.4);
+    transition: .2s all; }
+    .button__style:focus {
+      outline: none; }
+    .button__style:hover {
+      transform: translateY(-3px); }
+    .button__style:active {
+      transform: translateY(1px); }
+
+.chart {
+  display: flex;
+  flex: 0 0 100%;
+  flex-wrap: wrap;
+  margin-bottom: 3rem; }
+  .chart__container {
+    width: 90vw;
+    max-width: 102.4rem;
+    margin: auto;
+    position: relative; }
+
+.progress {
+  display: flex;
+  flex: 0 0 100%;
+  border: 1px solid #FCF5C7;
+  height: .6rem;
+  border-radius: 2rem;
+  margin-bottom: 1rem; }
+  .progress__bar {
+    display: flex;
+    background-color: #FF867D;
+    border-radius: 2rem;
+    padding: .2rem;
+    width: 91%; }
+
+.radial {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap; }
+  .radial__nested {
+    display: flex;
+    flex: 1;
+    height: 200px;
+    justify-content: center;
+    background-color: transparent; }
+    .radial__nested-container {
+      width: 180px;
+      position: relative; }
+    .radial__nested svg {
+      position: absolute; }
+    .radial__nested .label-1 {
+      top: 0;
+      left: 0; }
+    .radial__nested .label-2 {
+      top: 2rem;
+      left: 2rem; }
+    .radial__nested .label-3 {
+      top: 4rem;
+      left: 4rem; }
+  .radial__info {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center; }
+
+.center__items {
+  display: flex;
+  flex: 0 0 100%;
+  flex-wrap: wrap;
+  margin-bottom: 2rem; }
+
+.full-row {
+  display: flex;
+  flex: 0 0 100%;
+  justify-content: center; }
+
+.content {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px 4rem; }
+  .content__container {
+    display: flex;
+    flex: 0 0 100%;
+    flex-wrap: wrap;
+    max-width: 102.4rem; }
+
+.date {
+  display: flex;
+  flex: 0 0 100%;
+  justify-content: stretch;
+  border: 1px #FCF5C7 solid;
+  border-radius: 2rem;
+  margin-bottom: 3rem; }
+  .date__box {
+    flex: 1;
+    text-align: center;
+    padding: 1rem 1.5rem;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    color: #FCF5C7; }
+    .date__box:nth-child(1) {
+      border-radius: 2rem 0px 0px 2rem; }
+    .date__box:nth-child(3) {
+      border-radius: 0px 2rem 2rem 0px; }
+    .date__box:hover {
+      background-color: #FCF5C7;
+      color: #A34672; }
+
+.merch {
+  display: flex;
+  flex: 0 0 100%;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
+  margin-bottom: 1rem; }
+  .merch__title {
+    display: flex;
+    align-items: center; }
+    .merch__title-name {
+      color: #FCF5C7; }
+  .merch__price {
+    color: #FF867D; }
+
+.bullet {
+  margin-right: 1rem; }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 2rem;
+  color: #FCF5C7; }
+
+.orders {
+  display: flex;
+  flex: 0 0 100%;
+  font-size: 1.2rem;
+  justify-content: space-between;
+  color: #FCF5C7; }
+  .orders__value {
+    color: #FF867D; }

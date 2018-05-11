@@ -1,0 +1,63 @@
+.progress {
+  display: flex;
+  flex: 0 0 100%;
+  border: 1px solid $color-light-gold;
+  height:.6rem;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+
+  &__bar {
+    display: flex;
+    background-color: $color-pink;
+    border-radius: 2rem;
+    padding: .2rem;
+    width:91%;
+  }
+}
+
+
+.radial {
+  display:flex;
+  flex:1;
+  flex-wrap: wrap;
+
+  &__nested {
+    display:flex;
+    flex:1;
+    height: 200px;
+    justify-content: center;
+    background-color: transparent;
+
+    &-container {
+      width:180px;
+      position: relative;
+    }
+
+    svg {
+      position: absolute;
+    }
+    .label-1 {
+      top: 0;
+      left: 0;
+    }
+
+    .label-2 {
+      top: 2rem;
+      left: 2rem;
+    }
+
+    .label-3 {
+      top: 4rem;
+      left: 4rem;
+    }
+  }
+
+  &__info {
+    display:flex;
+    width:100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+}
