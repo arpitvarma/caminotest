@@ -1,4 +1,4 @@
-Front End Project Interview
+Interview Tasks
 
 ### 1) Create a mobile responsive page based on design from 01.psd. Please use React and Redux.
 
